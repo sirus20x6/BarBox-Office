@@ -1,26 +1,242 @@
 [
-  {
-    "id": "tt0110148",
-    "title": "Interview with the Vampire: The Vampire Chronicles",
-    "poster": "https://m.media-amazon.com/images/M/MV5BYThmYjJhMGItNjlmOC00ZDRiLWEzNjUtZjU4MjA3MzY0MzFmXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg",
-    "synopsis": "A vampire tells his epic life story: love, betrayal, loneliness, and hunger.",
-    "votes": 0,
-    "imdbRating": "7.5"
-  },
-  {
-    "id": "tt0103874",
-    "title": "Bram Stoker's Dracula",
-    "poster": "https://m.media-amazon.com/images/M/MV5BNjcyMDZlMTktYTIxOC00ZWFhLWJkYzgtNWNiYjAwYTFkNjIyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
-    "synopsis": "The centuries old vampire Count Dracula comes to England to seduce his barrister Jonathan Harker's fiancée Mina Murray and inflict havoc in the foreign land.",
-    "votes": 0,
-    "imdbRating": "7.4"
-  },
-  {
-    "id": "tt0115963",
-    "title": "The Craft",
-    "poster": "https://m.media-amazon.com/images/M/MV5BZTBkMWE1NGItZTgxMi00ZTE0LWIzZjAtNzQ5ZGZlZTQxN2EwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-    "synopsis": "A newcomer to a Catholic prep high school falls in with a trio of outcast teenage girls who practice witchcraft, and they all soon conjure up various spells and curses against those who anger them.",
-    "votes": 0,
-    "imdbRating": "6.4"
-  }
+    {
+        "id": "tt0087332",
+        "title": "Ghostbusters",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTkxMjYyNzgwMl5BMl5BanBnXkFtZTgwMTE3MjYyMTE@._V1_SX300.jpg",
+        "synopsis": "Three parapsychologists forced out of their university funding set up shop as a unique ghost removal service in New York City, attracting frightened yet skeptical customers.",
+        "votes": 0,
+        "imdbRating": "7.8"
+    },
+    {
+        "id": "tt0119174",
+        "title": "The Game",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWQ2ODFhNWItNTA4NS00MzkyLTgyYzUtZjlhYWE5MmEzY2Q1XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+        "synopsis": "After a wealthy San Francisco banker is given an opportunity to participate in a mysterious game, his life is turned upside down as he begins to question if it might really be a concealed conspiracy to destroy him.",
+        "votes": 0,
+        "imdbRating": "7.7"
+    },
+    {
+        "id": "tt0110148",
+        "title": "Interview with the Vampire: The Vampire Chronicles",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYThmYjJhMGItNjlmOC00ZDRiLWEzNjUtZjU4MjA3MzY0MzFmXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg",
+        "synopsis": "A vampire tells his epic life story: love, betrayal, loneliness, and hunger.",
+        "votes": 0,
+        "imdbRating": "7.5"
+    },
+    {
+        "id": "tt0289043",
+        "title": "28 Days Later",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYTFkM2ViMmQtZmI5NS00MjQ2LWEyN2EtMTI1ZmNlZDU3MTZjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
+        "synopsis": "Four weeks after a mysterious, incurable virus spreads throughout the UK, a handful of survivors try to find sanctuary.",
+        "votes": 0,
+        "imdbRating": "7.5"
+    },
+    {
+        "id": "tt0120663",
+        "title": "Eyes Wide Shut",
+        "poster": "https://m.media-amazon.com/images/M/MV5BYzMzZjcyNzEtZjE2OC00Yjk3LWExOGItODdhNzhkZTdmM2M0XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+        "synopsis": "A Manhattan doctor embarks on a bizarre, night-long odyssey after his wife's admission of unfulfilled longing.",
+        "votes": 0,
+        "imdbRating": "7.5"
+    },
+    {
+        "id": "tt0118971",
+        "title": "The Devil's Advocate",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2M2MDJhMDgtMmJkYy00MTgzLTkyZTktODM5NzE1MWUyNDA4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+        "synopsis": "An exceptionally-adept Florida lawyer is offered a job at a high-end New York City law firm with a high-end boss--the biggest opportunity of his career to date.",
+        "votes": 0,
+        "imdbRating": "7.5"
+    },
+    {
+        "id": "tt0103874",
+        "title": "Bram Stoker's Dracula",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNjcyMDZlMTktYTIxOC00ZWFhLWJkYzgtNWNiYjAwYTFkNjIyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
+        "synopsis": "The centuries old vampire Count Dracula comes to England to seduce his barrister Jonathan Harker's fiancée Mina Murray and inflict havoc in the foreign land.",
+        "votes": 0,
+        "imdbRating": "7.4"
+    },
+    {
+        "id": "tt0162661",
+        "title": "Sleepy Hollow",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTQ4Yjk5ODEtNGFkOS00OTY1LTgwYTYtOTFkNmU2NzBmNGM2XkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_SX300.jpg",
+        "synopsis": "Ichabod Crane is sent to Sleepy Hollow to investigate the decapitations of three people; the culprit is legendary apparition The Headless Horseman.",
+        "votes": 0,
+        "imdbRating": "7.3"
+    },
+    {
+        "id": "tt0092563",
+        "title": "Angel Heart",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZmQ3Mzg3YjgtNTA1Zi00ODgyLTkyZGUtYTE5NDA5ZmI4NjI1L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg",
+        "synopsis": "A private investigator is hired by a man who calls himself Louis Cyphre to track down a singer named Johnny Favorite. But the investigation takes an unexpected and somber turn.",
+        "votes": 0,
+        "imdbRating": "7.2"
+    },
+    {
+        "id": "tt0093437",
+        "title": "The Lost Boys",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMWEzNmUxZTMtZjY0My00OGNmLWIyNDctODM2YzZjM2YwZWEwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "synopsis": "After moving to a new town, two brothers discover that the area is a haven for vampires.",
+        "votes": 0,
+        "imdbRating": "7.2"
+    },
+    {
+        "id": "tt0264616",
+        "title": "Frailty",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNDUxOWIxMjgtNTY2Ni00MWNhLTk4YWMtMjkxZjk4MzBiMjZkXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
+        "synopsis": "A mysterious man arrives at the offices of an FBI agent and recounts his childhood: how his religious fanatic father received visions telling him to destroy people who were in fact \"demons.\"",
+        "votes": 0,
+        "imdbRating": "7.2"
+    },
+    {
+        "id": "tt0120616",
+        "title": "The Mummy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOTJiYjBhZDgtMjhiOC00MTIzLThlNGMtMmI1NjIwM2M3YTI5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "synopsis": "At an archaeological dig in the ancient city of Hamunaptra, an American serving in the French Foreign Legion accidentally awakens a mummy who begins to wreak havoc as he searches for the reincarnation of his long-lost love.",
+        "votes": 0,
+        "imdbRating": "7.1"
+    },
+    {
+        "id": "tt0360486",
+        "title": "Constantine",
+        "poster": "https://m.media-amazon.com/images/M/MV5BODZiMzAxNTctZjdiZC00OGY5LTg2NDAtNWJhNmQwZTcyMWQ2XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+        "synopsis": "Supernatural exorcist and demonologist John Constantine helps a policewoman prove her sister's death was not a suicide, but something more.",
+        "votes": 0,
+        "imdbRating": "7.0"
+    },
+    {
+        "id": "tt0320691",
+        "title": "Underworld",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTk1OTc2ZmUtODU0Yy00NGJiLWJmNmQtODI0MzBjODk3MjI4L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg",
+        "synopsis": "Selene, a vampire warrior, is entrenched in a conflict between vampires and werewolves, while falling in love with Michael, a human who is sought by werewolves for unknown reasons.",
+        "votes": 0,
+        "imdbRating": "7.0"
+    },
+    {
+        "id": "tt0119099",
+        "title": "Fallen",
+        "poster": "https://m.media-amazon.com/images/M/MV5BY2Q1OGI4ZGQtMzc3OS00YzIyLThhNWQtYWUxODc3NzU0YWQ4L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "synopsis": "Homicide detective John Hobbes witnesses the execution of serial killer Edgar Reese. Soon after the execution, the killings start again, and they are very similar to Reese's style.",
+        "votes": 0,
+        "imdbRating": "7.0"
+    },
+    {
+        "id": "tt4263482",
+        "title": "The Witch",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzkwMzAxOF5BMl5BanBnXkFtZTgwMzc1OTk1NjE@._V1_SX300.jpg",
+        "synopsis": "A family in 1630s New England is torn apart by the forces of witchcraft, black magic and possession.",
+        "votes": 0,
+        "imdbRating": "7.0"
+    },
+    {
+        "id": "tt0164181",
+        "title": "Stir of Echoes",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjE2NTEwZWYtYzcxYi00MzZhLTg0NDMtNTBhMTM3MjEyMmU3XkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg",
+        "synopsis": "After being hypnotized by his sister-in-law, a man begins seeing haunting visions of a girl's ghost and a mystery begins to unfold around him.",
+        "votes": 0,
+        "imdbRating": "6.9"
+    },
+    {
+        "id": "tt0167190",
+        "title": "Hellboy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNTc1ZWY0ZTEtZTVmNi00MTg0LTg4NmQtZTI4OWNiMmQ0MWZkXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
+        "synopsis": "A demon raised from infancy after being conjured by and rescued from the Nazis, grows up to become a defender against the forces of darkness.",
+        "votes": 0,
+        "imdbRating": "6.8"
+    },
+    {
+        "id": "tt0120681",
+        "title": "From Hell",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTM1MjkxNTQxMV5BMl5BanBnXkFtZTYwMDMxNDg2._V1_SX300.jpg",
+        "synopsis": "In Victorian-era London, a troubled clairvoyant police detective investigates the murders of Jack the Ripper.",
+        "votes": 0,
+        "imdbRating": "6.7"
+    },
+    {
+        "id": "tt0142688",
+        "title": "The Ninth Gate",
+        "poster": "https://m.media-amazon.com/images/M/MV5BM2Q1ZTFhMmYtNDljMS00Y2ZhLWE3M2QtMjYwYmFkYmJmMjI1XkEyXkFqcGdeQXVyNjU0NTI0Nw@@._V1_SX300.jpg",
+        "synopsis": "A rare book dealer, while seeking out the last two copies of a demon text, gets drawn into a conspiracy with supernatural overtones.",
+        "votes": 0,
+        "imdbRating": "6.7"
+    },
+    {
+        "id": "tt0187738",
+        "title": "Blade II",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWVjZTIzNDYtNTBlNC00NTJjLTkzOTEtOTE0MjlhYzI2YTcyXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+        "synopsis": "Blade forms an uneasy alliance with the vampire council in order to combat the Reapers, who are feeding on vampires.",
+        "votes": 0,
+        "imdbRating": "6.7"
+    },
+    {
+        "id": "tt0073600",
+        "title": "Race with the Devil",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDFjMmY4ZmUtMGUxYi00Y2UxLThkYWYtMWY0YmI3ZjY1NTFmXkEyXkFqcGdeQXVyMTUzMDUzNTI3._V1_SX300.jpg",
+        "synopsis": "Two couples vacationing together in an R.V. from Texas to Colorado are terrorized after they witness a murder during a Satanic ritual.",
+        "votes": 0,
+        "imdbRating": "6.6"
+    },
+    {
+        "id": "tt0870984",
+        "title": "Antichrist",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjE3MjQ2ODc1N15BMl5BanBnXkFtZTcwNjYyMzI5Mg@@._V1_SX300.jpg",
+        "synopsis": "A grieving couple retreat to their cabin in the woods, hoping to repair their broken hearts and troubled marriage, but nature takes its course and things go from bad to worse.",
+        "votes": 0,
+        "imdbRating": "6.5"
+    },
+    {
+        "id": "tt0115963",
+        "title": "The Craft",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZTBkMWE1NGItZTgxMi00ZTE0LWIzZjAtNzQ5ZGZlZTQxN2EwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "synopsis": "A newcomer to a Catholic prep high school falls in with a trio of outcast teenage girls who practice witchcraft, and they all soon conjure up various spells and curses against those who anger them.",
+        "votes": 0,
+        "imdbRating": "6.4"
+    },
+    {
+        "id": "tt0209163",
+        "title": "The Mummy Returns",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjE2NzU1NTk2MV5BMl5BanBnXkFtZTgwMjIwMzcxMTE@._V1_SX300.jpg",
+        "synopsis": "The mummified body of Imhotep is shipped to a museum in London, where he once again wakes and begins his campaign of rage and terror.",
+        "votes": 0,
+        "imdbRating": "6.4"
+    },
+    {
+        "id": "tt0114194",
+        "title": "The Prophecy",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZjM4N2I0ZjYtMTFmNC00ZGQ0LWIzNmMtZDZjNzIwOGM1NzA0XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "synopsis": "At the scene of a bizarre murder, L.A. homicide detective Thomas Dagget discovers a lethal heavenly prophecy now being fulfilled on earth. In his fight to stop the forces of evil, he finds an unlikely ally in an elementary school ...",
+        "votes": 0,
+        "imdbRating": "6.4"
+    },
+    {
+        "id": "tt0145531",
+        "title": "Stigmata",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTQwMDA1NzI4OV5BMl5BanBnXkFtZTcwNzM4MjM3NA@@._V1_SX300.jpg",
+        "synopsis": "When a young woman becomes afflicted by stigmata, a priest is sent to investigate her case, which may have severe ramifications for his faith and for the Catholic Church itself.",
+        "votes": 0,
+        "imdbRating": "6.2"
+    },
+    {
+        "id": "tt0257106",
+        "title": "Scary Movie 2",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMzQxYjU1OTUtYjRiOC00NDg2LWI4MWUtZGU5YzdkYTcwNTBlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+        "synopsis": "Four teens are tricked by Professor Oldman (Tim Curry) into visiting a haunted house for a school project.",
+        "votes": 0,
+        "imdbRating": "5.3"
+    },
+    {
+        "id": "tt0304711",
+        "title": "The Order",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTUxOTU5NDU2N15BMl5BanBnXkFtZTgwMDgyMjYyMDI@._V1_SX300.jpg",
+        "synopsis": "A young priest is sent to Rome to investigate the troubling death of the head of his order.",
+        "votes": 0,
+        "imdbRating": "5.1"
+    },
+    {
+        "id": "tt0988045",
+        "title": "Sherlock Holmes",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMTg0NjEwNjUxM15BMl5BanBnXkFtZTcwMzk0MjQ5Mg@@._V1_SX300.jpg",
+        "synopsis": "Detective Sherlock Holmes and his stalwart partner Watson engage in a battle of wits and brawn with a nemesis whose plot is a threat to all of England.",
+        "votes": 0,
+        "imdbRating": "7.6"
+    }
 ]

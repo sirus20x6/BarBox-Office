@@ -6,7 +6,7 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 passport.use(new GoogleStrategy({
   clientID: "943535004686-0i8a0p2c2t9fj8e2qh2gn9jnl8fvr2h2.apps.googleusercontent.com",
   clientSecret: "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",
-  callbackURL: "http://localhost:3000/auth/google/callback"
+  callbackURL: "http://memepipe.tv:3393/auth/google/callback"
 },
 function(accessToken, refreshToken, profile, cb) {
   // You can store user data in a database here

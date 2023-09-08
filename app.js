@@ -63,7 +63,8 @@ app.post('/addmovie', async (req, res) => {
                 title: movieData.Title,
                 poster: movieData.Poster,
                 synopsis: movieData.Plot,
-                votes: 0
+                votes: 0,
+		imdbRating: movieData.imdbRating
             });
             fs.writeFileSync('./movies.json', JSON.stringify(movies, null, 4));
         }
