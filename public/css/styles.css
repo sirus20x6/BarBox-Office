@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Change this from flex-start to center */
+  flex-direction: column;
+  background-color: #121212;
+  color: #E0E0E0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #1E1E1E;
+    border-color: #333333;
+}
+
+.card-container {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285F4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #E53935;
+    color: #FFFFFF;
+}
+
+.login-button:hover {
+    background-color: #d32d2f;
+}
+.movie-card {
+    width: 300px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-color: #1E1E1E;
+    border-color: #333333;
+}
+
+.movie-card h2 {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.movie-card p {
+    margin: 10px;
+    font-size: 16px;
+    color: #666;
+}
+.movie-card h2, .movie-card p {
+    color: #E0E0E0;  /* Light gray text for the movie title and description */
+}
+.vote-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.vote-button {
+    background-color: transparent;
+    border: none;
+    color: #FFD700;  /* Gold color, you can adjust */
+    font-size: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.vote-button:hover {
+    color: #C0C0C0;  /* Silver color on hover */
+}
+
+.vote-count {
+    font-size: 18px;
+    color: #E0E0E0;  /* Light gray text */
+}
+.movie-card .imdb-rating {
+    font-weight: bold;
+    color: gold;
+    font-size: 20px;   /* Adjust size as desired */
+    text-align: center; /* Center the rating */
+    margin-top: 10px; /* Add a bit of margin for spacing */
+}
+
+.vote-btn[data-vote="up"] i {
+    color: blue;
+}
+
+.vote-btn[data-vote="down"] i {
+    color: red;
+}
+
+.login-button, .logout-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4285F4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.logout-button {
+    background-color: #FF4136; /* Or any other color you'd like for the logout button */
+}

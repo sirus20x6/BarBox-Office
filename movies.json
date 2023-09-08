@@ -1,0 +1,26 @@
+[
+  {
+    "id": "tt0110148",
+    "title": "Interview with the Vampire: The Vampire Chronicles",
+    "poster": "https://m.media-amazon.com/images/M/MV5BYThmYjJhMGItNjlmOC00ZDRiLWEzNjUtZjU4MjA3MzY0MzFmXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg",
+    "synopsis": "A vampire tells his epic life story: love, betrayal, loneliness, and hunger.",
+    "votes": 0,
+    "imdbRating": "7.5"
+  },
+  {
+    "id": "tt0103874",
+    "title": "Bram Stoker's Dracula",
+    "poster": "https://m.media-amazon.com/images/M/MV5BNjcyMDZlMTktYTIxOC00ZWFhLWJkYzgtNWNiYjAwYTFkNjIyXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg",
+    "synopsis": "The centuries old vampire Count Dracula comes to England to seduce his barrister Jonathan Harker's fiancée Mina Murray and inflict havoc in the foreign land.",
+    "votes": 0,
+    "imdbRating": "7.4"
+  },
+  {
+    "id": "tt0115963",
+    "title": "The Craft",
+    "poster": "https://m.media-amazon.com/images/M/MV5BZTBkMWE1NGItZTgxMi00ZTE0LWIzZjAtNzQ5ZGZlZTQxN2EwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+    "synopsis": "A newcomer to a Catholic prep high school falls in with a trio of outcast teenage girls who practice witchcraft, and they all soon conjure up various spells and curses against those who anger them.",
+    "votes": 0,
+    "imdbRating": "6.4"
+  }
+]

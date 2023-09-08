@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BarBox Office</title>
+	<link rel="stylesheet" href="/css/styles.css">
+	<script src="/js/scripts.js" defer></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <% if (!user) { %>
+    <a href="/auth/google" class="login-button">Login with Google</a>
+<% } else { %>
+    <span>Welcome, <%= user.displayName %>!</span>
+    <a href="/logout" class="logout-button">Logout</a>
+<% } %>
+
+<% movies.forEach(movie => { %>
+<div class="card-container">
+    <div class="movie-card">
+        <img src="<%= movie.poster %>" alt="<%= movie.title %> poster">
+        <h2><%= movie.title %></h2>
+        <p><%= movie.synopsis %></p>
+	<p class="imdb-rating">IMDb Rating: <%= movie.imdbRating %></p>
+        <div class="vote-container">
+            <button class="vote-btn" data-id="<%= movie.id %>" data-vote="up">
+    <i class="fas fa-arrow-up"></i> Upvote
+</button>
+<span class="vote-count"><%= movie.votes %></span>
+<button class="vote-btn" data-id="<%= movie.id %>" data-vote="down">
+	<i class="fas fa-arrow-down"></i> Downvote
+</button>
+        </div>
+    </div>
+</div>
+<% }) %>
+<form action="/addmovie" method="POST">
+    <input type="text" name="imdbID" placeholder="Enter IMDb ID">
+    <button type="submit">Add Movie</button>
+</form>
+
+</body>
+</html>

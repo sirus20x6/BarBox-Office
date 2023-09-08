@@ -1,0 +1,40 @@
+const express = require('express');
+const bodyParser = require('body-parser');
+
+const app = express();
+const PORT = process.env.PORT || 3393;
+
+// Setting up the view engine
+app.set('view engine', 'ejs');
+
+// Middleware
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
+// Routes
+app.get('/', (req, res) => {
+    res.render('movies', { movies: movies });
+});
+
+
+app.get('/login', (req, res) => {
+    res.render('login');
+});
+
+const authRoutes = require('./routes/auth');
+app.use('/auth', authRoutes);
+
+app.post('/addmovie', async (req, res) => {
+    const imdbID = req.body.imdbID;
+    // Fetch movie data using IMDb ID and add to movies.json
+    ...
+    res.redirect('/');
+});
+
+const movies = require('./movies.json');
+
+// Start the server
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
+
